@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { animate, motion, useScroll } from "framer-motion"
 import About from '../components/About'
 import Contacts from '../components/Contacts'
 import Header from '../components/Header'
@@ -11,10 +10,9 @@ import styles from '../styles/Home.module.css'
 import Footer from '../components/Footer'
 
 export default function Home() {
-  const { scrollYProgress } = useScroll();
+  
   return (
     <div>
-      <motion.div className='progress-bar' style={{ scaleX: scrollYProgress }} ></motion.div>
       <Head>
         <title>Shakil Khan</title>
         <meta name="description" content="Shakil Khan full stack developer" />
