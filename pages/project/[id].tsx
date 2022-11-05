@@ -25,8 +25,8 @@ const project = () => {
   return (
     <div>
          <Head>
-        <title>Project details</title>
-        <meta name="description" content="Shakil Khan full stack developer" />
+        <title>{details && details.title}</title>
+        <meta name="description" content={details && details.description} />
         <link rel="icon" href="/images/javascript.png" />
       </Head>
       <div className='max-w-screen-lg mx-auto py-20 px-5'>

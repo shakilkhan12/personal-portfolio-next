@@ -1,6 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+    .progress-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: #ea580c;
+        transform-origin: 0%;
+        z-index: 100
+      }
+
 @layer base {
     body {
         @apply bg-zinc-900;
