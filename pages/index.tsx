@@ -8,6 +8,7 @@ import Positions from '../components/Positions'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import styles from '../styles/Home.module.css'
+import Footer from '../components/Footer'
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -19,13 +20,14 @@ export default function Home() {
         <meta name="description" content="Shakil Khan full stack developer" />
         <link rel="icon" href="/images/javascript.png" />
       </Head>
-      <div className='max-w-screen-lg mx-auto py-20 px-5'  >
+      <div className='max-w-screen-lg mx-auto pt-20 px-5'  >
         <Header />
         <Contacts />
         <About />
         <Skills />
         <Positions />
         <Projects />
+        <Footer />
       </div>
     </div>
   )

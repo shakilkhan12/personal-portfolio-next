@@ -5,6 +5,7 @@ import { useEffect, useState } from "react"
 import { IoIosArrowRoundBack } from "react-icons/io"
 import Header from '../../components/Header'
 import Data from "../../data/projects.json"
+import Footer from '../../components/Footer'
 interface Projects {
   id: number;
   title: string;
@@ -56,6 +57,7 @@ const project = () => {
           </>}
           
         </div>
+        <Footer />
         </div>
     </div>
   )
