@@ -11,7 +11,7 @@ const Contacts = () => {
         {id: 5, icon:<BsInstagram className="text-gray-200"/>, title:'instagram', url:'https://www.instagram.com/shakilkhanprogrammer/' },
         {id: 6, icon:<BsFacebook className="text-gray-200"/>, title:'facebook', url:'https://facebook.com/shakilkhan621' },
         {id: 7, icon:<AiOutlineMail className="text-gray-200"/>, title:'Email', url:'mailto:shakilkhan621@gmail.com' },
-        {id: 8, icon:<BiUserCircle className="text-gray-200"/>, title:'download CV', url:'https://linkedin.com/shakilkhan621' },
+        {id: 8, icon:<BiUserCircle className="text-gray-200"/>, title:'download CV', url:'/files/cv.pdf' },
     ]);
   return (
     <div className="py-6 border-b border-zinc-700">
