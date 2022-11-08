@@ -51,7 +51,7 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
       },
       particles: {
           color: {
-              value: "#ea580c",
+              value: "#52525b",
           },
           links: {
               color: "",
