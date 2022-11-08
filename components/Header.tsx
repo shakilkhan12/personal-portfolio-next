@@ -10,7 +10,7 @@ const Header = () => {
     const [exp] = useState<string>('Almost 7 years of experiance')
     const [education] = useState<string>('BS Software Engineering')
   return (
-    <div className="flex flex-wrap space-y-5 sm:space-x-10 border-b border-zinc-700 pb-6">
+    <div className="flex items-center flex-wrap space-y-5 sm:space-x-10 border-b border-zinc-700 pb-6">
         <div className="w-[120px] h-[120px] relative border-[7px] border-gray-400 rounded-full p-2 border-b-gray-700 border-r-gray-700">
        <Image src='/images/profile.jpg' fill alt="profile image" className="object-cover rounded-full" />
         </div>
