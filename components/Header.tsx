@@ -11,8 +11,8 @@ const Header = () => {
     const [education] = useState<string>('BS Software Engineering')
   return (
     <div className="flex items-center flex-wrap space-y-5 sm:space-x-10 border-b border-zinc-700 pb-6">
-        <div className="w-[120px] h-[120px] relative border-[7px] border-gray-400 rounded-full p-2 border-b-gray-700 border-r-gray-700">
-       <Image src='/images/profile.jpg' fill alt="profile image" className="object-cover rounded-full" />
+        <div className="w-[120px] h-[120px] relative border-[3px]  rounded-full  ">
+       <Image src='/images/profile.jpg' fill alt="profile image" className="object-cover rounded-full p-[4px] bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500" />
         </div>
         <div>
             <h4 className="text-white capitalize text-4xl font-bold">{name}</h4>
