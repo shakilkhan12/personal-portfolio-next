@@ -24,7 +24,7 @@ const Skills = () => {
         // {id: 343453, name: 'ethereum', image: '/images/eth.png'},
         {id: 19, name: 'GitHub', image: '/images/git.png'},
         {id: 20, name: 'jest', image: '/images/jest.png'},
-        {id: 21, name: 'AWS Amplify', image: '/images/aws.png'},
+        // {id: 21, name: 'AWS Amplify', image: '/images/aws.png'},
         {id: 22, name: 'heroku', image: '/images/heroku.png'},
         {id: 23, name: 'netlify', image: '/images/netlify.png'},
     ]);

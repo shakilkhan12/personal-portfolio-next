@@ -7,10 +7,17 @@ const Positions = () => {
             image: '/images/job.jpg',
             role: 'backend developer',
             type: 'remote',
-            date: '10/2022 - present'
+            date: '10/2022 - 11/2022'
         },
         {
-            id:2,
+            id: 2,
+            image: '/images/nordic.gif',
+            role: 'Next JS Full Stack Developer',
+            type: 'remote',
+            date: '11/2022 - present'
+        },
+        {
+            id:3,
             image: '/images/udemy2.png',
             role: 'instructor',
             // type: 'remote',
@@ -18,7 +25,7 @@ const Positions = () => {
             options: ['45000+ udemy students', 'Courses are includes projects']
         },
         {
-            id:3,
+            id:4,
             image: '/images/youtube.png',
             role: 'instructor',
             // type: 'remote',
