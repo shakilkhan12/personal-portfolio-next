@@ -18,7 +18,7 @@ const Positions = () => {
         {
             id: 2,
             image: '/images/nordic.gif',
-            role: 'Next JS Full Stack Developer',
+            role: 'MERN Stack Developer',
             type: 'remote',
             date: '11/2022 - present',
             skills: [

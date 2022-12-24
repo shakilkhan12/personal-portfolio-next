@@ -5,14 +5,14 @@ import { SiGnubash } from "react-icons/si"
 import { IoSchoolSharp } from "react-icons/io5"
 const Header = () => {
     const [name] = useState<string>('shakil khan');
-    const [role] = useState<string>('Full stack javascript developer and mentor');
+    const [role] = useState<string>('Full Stack Javascript Developer & Mentor');
     const [location] = useState<string>('pakistan, malakand');
     const [exp] = useState<string>('Almost 7 years of experiance')
     const [education] = useState<string>('BS Software Engineering')
   return (
     <div className="flex items-center flex-wrap space-y-5 sm:space-x-10 border-b border-zinc-700 pb-6">
         <div className="w-[120px] h-[120px] relative">
-       <Image src='/images/profile.jpg' fill alt="profile image" className="object-cover rounded-full w-full h-full p-[6px] bg-gradient-to-r from-gray-900 via-gray-900 to-yellow-500" />
+       <Image src='/images/profile.jpg' fill alt="profile image" className="object-cover rounded-full w-full h-full p-[5px] bg-gray-800" />
         </div>
         <div>
             <h4 className="text-white capitalize text-4xl font-bold">{name}</h4>
