@@ -27,6 +27,7 @@ const Skills = () => {
         // {id: 21, name: 'AWS Amplify', image: '/images/aws.png'},
         {id: 22, name: 'heroku', image: '/images/heroku.png'},
         {id: 23, name: 'netlify', image: '/images/netlify.png'},
+        {id: 24, name: 'third web', image: '/images/thirdweb.png'},
     ]);
   return (
     <div className="py-6 border-b border-zinc-700">

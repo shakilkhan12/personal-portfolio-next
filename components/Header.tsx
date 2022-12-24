@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <div className="flex items-center flex-wrap space-y-5 sm:space-x-10 border-b border-zinc-700 pb-6">
         <div className="w-[120px] h-[120px] relative">
-       <Image src='/images/profile.jpg' fill alt="profile image" className="object-cover rounded-full w-full h-full p-[5px] bg-gray-800" />
+       <Image src='/images/profile.jpg' fill alt="profile image" className="object-contain rounded-full w-full h-full p-[5px] bg-gray-800" />
         </div>
         <div>
             <h4 className="text-white capitalize text-4xl font-bold">{name}</h4>
