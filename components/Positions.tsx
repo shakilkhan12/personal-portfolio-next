@@ -3,19 +3,6 @@ import { useState } from "react"
 const Positions = () => {
     const [position] = useState([
         {
-            id: 1,
-            image: '/images/job.jpg',
-            role: 'backend developer',
-            type: 'remote',
-            date: '10/2022 - 11/2022',
-            skills: [
-                {id: 1, name: 'node JS', image: '/images/node.png'},
-                {id: 2, name: 'express JS', image: '/images/express.png'},
-                {id: 3, name: 'Heroku', image: '/images/heroku.png'},
-                {id: 4, name: 'github', image: '/images/git.png'},
-            ]
-        },
-        {
             id: 2,
             image: '/images/nordic.gif',
             role: 'MERN Stack Developer',
@@ -32,6 +19,20 @@ const Positions = () => {
                 {id: 8, name: 'github', image: '/images/git.png'},
             ]
         },
+        {
+            id: 1,
+            image: '/images/job.jpg',
+            role: 'backend developer',
+            type: 'remote',
+            date: '10/2022 - 11/2022',
+            skills: [
+                {id: 1, name: 'node JS', image: '/images/node.png'},
+                {id: 2, name: 'express JS', image: '/images/express.png'},
+                {id: 3, name: 'Heroku', image: '/images/heroku.png'},
+                {id: 4, name: 'github', image: '/images/git.png'},
+            ]
+        },
+        
         {
             id:3,
             image: '/images/udemy2.png',

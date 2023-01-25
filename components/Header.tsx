@@ -5,7 +5,7 @@ import { SiGnubash } from "react-icons/si"
 import { IoSchoolSharp } from "react-icons/io5"
 const Header = () => {
     const [name] = useState<string>('shakil khan');
-    const [role] = useState<string>('Full Stack Javascript Developer & Mentor');
+    const [role] = useState<string>('Full Stack JavaScript Developer & Mentor');
     const [location] = useState<string>('pakistan, malakand');
     const [exp] = useState<string>('Almost 7 years of experiance')
     const [education] = useState<string>('BS Software Engineering')

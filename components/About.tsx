@@ -2,7 +2,7 @@ import { useState } from "react"
 import { FaHandPaper } from "react-icons/fa"
 const About = () => {
     const [heading] = useState<string>('hello everyone');
-    const [description] = useState<string>('I\'m Shakil Khan, a full-stack developer experienced in JavaScript, React, Next, Express, MongoDB, etc, I am a backend developer at Hidden Logics, I teach on udemy since 2017 and also I educate people on my Youtube channel. I am a big fan of blockchain technology my next goal is to become an expert in blockchain technology.');
+    const [description] = useState<string>('I\'m Shakil Khan, a full-stack developer experienced in JavaScript, React, Next, Express, MongoDB, etc, I am a MERN Stack developer at Nordic Software Solution DUBAI, I teach on udemy since 2017 and also I educate people on my Youtube channel. I am a big fan of blockchain technology my next goal is to become an expert in blockchain technology.');
   return (
     <div className="py-6 border-b border-zinc-700">
     <h3 className="text-gray-400 capitalize text-lg font-medium">about me</h3>
